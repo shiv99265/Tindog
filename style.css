@@ -1,0 +1,160 @@
+body{
+    font-family: 'Montserrat, sans-serif';
+}
+h1{
+  font-family: 'Montserrat, sans-serif';
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 50px;
+}
+.container-fluid{
+  padding: 2.5% 5%;
+}
+.nav-link{
+  text-decoration: underline;
+  margin: auto 15px;
+}
+#title{
+  background-color:#ffc107;
+  font-size: 1.5rem;
+  /* padding-bottom : 80px; */
+}
+#mar{
+  margin-top: 20px;
+}
+#brand{
+  margin-left: 10px;
+}
+.nb{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.downloadbtn{
+  margin : 5% 3% 4% 0;
+}
+.dogimage{
+  width:35%;
+  margin: 0 auto 20px;
+  transform: rotate(10deg);
+  right: 6%;
+  z-index:0;
+  position: absolute;
+}
+@media (max-width : 900px) {
+ #mar{
+   text-align: center;
+ }
+  .dogimage{
+    z-index: 1;
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* @media (min-width : 1400px) {
+  .featuresrow{
+    margin-top: 4%;
+  }
+} */
+
+/* features */
+
+#features{
+  z-index: 1;
+  position: relative;
+  margin: auto;
+}
+/* features row */
+.featuresrow{
+       margin-left: 7%;
+      padding: 6% auto;
+      text-align: center;
+      background-color: white;
+      font-weight: bolder;
+      font-size: 1.2rem;
+       position: relative;
+}
+.featurescol{
+  margin-top: 30px;
+}
+/* smiley icon */
+.featureicon:hover{
+  transform: scale(1.5);
+  margin-bottom: 30px;
+}
+.featureicon{
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+.featurepara{
+     color: #301E67;
+     font-weight: bolder;
+}
+/* testimonial */
+#testimonials{
+  text-align: center;
+    background-color:#ffc107;
+    color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* doglove image */
+.dogloveimage{
+  width : 30%;
+  border-radius: 100%;
+  margin: 30px;
+}
+/* press */
+#press{
+  background-color :#ffc107;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.pressimages{
+  width: 10%;
+  margin: auto 30px;
+}
+/* pricing section */
+#pricing{
+  padding: 50px;
+}
+.pricingcol{
+  padding: 3% 2%;
+}
+.card-header{
+  text-align:center;
+}
+.card-body{
+  text-align: center;
+}
+/* cta  */
+#cta{
+  background-color:#ffc107;
+  text-align: center;
+}
+.ctah3{
+  font-size: 4rem;
+  padding-top: 7%;
+  padding-bottom:2%;
+}
+.ctabtn{
+     margin: auto 5px 40px;
+}
+#footer{
+  text-align: center;
+  padding-top: 3%;
+}
+.socialicons{
+  margin: 5px;
+}
+.ending{
+  font-weight: lighter;
+  opacity: .8;
+}
